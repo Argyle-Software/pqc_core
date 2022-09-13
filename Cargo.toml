@@ -6,6 +6,7 @@ authors = ["Mitchell Berry <foss@mitchellberry.com>"]
 readme = "readme.md"
 repository = "https://github.com/Argyle-Software/pqc_core"
 license = "MIT OR Apache-2.0"
+description = "Common functionality for the pqc series of crates"
 
 [dependencies]
 
