@@ -11,4 +11,4 @@ Enable features as needed.
 * `load` - Parses Known Answer Tests and seed buffers from a file into KAT structs
 * `zero` - Convenience function for conditionally zeroizing variables
 * `unique_feature` - Asserts mutually exclusive features aren't selected
-
+* `batch_default` - Instantiates mutable default variables

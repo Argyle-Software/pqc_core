@@ -1,6 +1,6 @@
 [package]
 name = "pqc_core"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2021"
 authors = ["Mitchell Berry <foss@mitchellberry.com>"]
 readme = "readme.md"
@@ -9,9 +9,10 @@ license = "MIT OR Apache-2.0"
 description = "Common functionality for the pqc series of crates"
 
 [dependencies]
-zeroize = { version = "1.5.7", optional = true }
+zeroize = { version = "1.5.7", optional = true, default-features = false }
 
 [features]
 load = []
 zero = ["zeroize"]
 unique_feature = []
+batch_default = []
